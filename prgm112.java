@@ -10,23 +10,26 @@ public class prgm112 {
         int age = sc.nextInt();
         //int age =16;
 
-        if(age >= 18){
+        if(age >= 18)
+        {
             System.out.println("Adult: vote , Drive");
         }
 
-          else if(age > 13 && age < 18){
+          else if(age > 13 && age < 18)
+          {
                 System.out.println("teenager");
-            }
+          }
 
 
-                else {
+                else
+                {
                     System.out.println("not adult");
                 }
             
         
-        }
-
-
     }
+
+
+}
 
 

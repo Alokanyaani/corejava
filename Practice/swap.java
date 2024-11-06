@@ -10,7 +10,7 @@ public class swap {
         Scanner sc = new Scanner(System.in);
 
         int a,b,temp;
-
+        //Print the values before swapping.
         System.out.println("Enter first num: ");
          a = sc.nextInt();
 
@@ -20,7 +20,7 @@ public class swap {
           temp = a;
           a = b;
           b = temp;
-
+        //Print the values after swapping.
         System.out.println("Enter first num: " + a);
         System.out.println("Enter first num: " + b);
 

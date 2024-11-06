@@ -7,7 +7,7 @@ public class pr13 {
    
      
 
-        int  num = 2;
+        int  num = 3;
 
         switch(num){
             case 1: System.out.println("Samosa");

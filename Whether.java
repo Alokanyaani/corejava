@@ -23,7 +23,7 @@ public class Whether {
             System.out.println("number is negative");
 
         }else {
-            System.err.println("Number is zero");
+            System.out.println("Number is zero");
         }
 
 

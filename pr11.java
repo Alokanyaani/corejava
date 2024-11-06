@@ -1,4 +1,6 @@
-public class pr11 {
+ //ternary operator
+ 
+ public class pr11 {
     public static void main(String[] args){
         
         int A = 24;

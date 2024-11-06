@@ -1,12 +1,12 @@
 public class while1 {
     public static void main(String[] args){
 
-        int count =0;
+        int counter =0;
 
-        while(count <100){
+        while(counter <100){
 
             System.out.println("Hello world");
-            count++;
+            counter++;
         }
         
     }

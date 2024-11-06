@@ -1,3 +1,6 @@
+// ternary operator
+
+
 public class pr12 {
     public static void main(String[] args){
         int marks = 32;
