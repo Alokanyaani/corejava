@@ -18,6 +18,8 @@ public class average{
         System.out.println("Enter 3rd num: ");
         int C = sc.nextInt();
 
+       
+
         int average = A + B + C /3;
 
         System.out.println("average of three num: " + average);
