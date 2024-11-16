@@ -1,3 +1,7 @@
+//break statement in loop:
+
+
+
 public class breakstatement_for {
     public static void main(String[] args){
 
@@ -7,6 +11,6 @@ public class breakstatement_for {
             }
             System.out.println(i);
         }
-       // System.out.println("i am out of the loop");
+        System.out.println("i am out of the loop");
     }
 }
