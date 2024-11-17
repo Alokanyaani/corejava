@@ -1,3 +1,7 @@
+//keep entering numbers till user enters a multiple of 10.
+
+
+
 import java.util.Scanner;
 
 
