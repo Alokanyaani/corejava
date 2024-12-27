@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 
 public class quadractic {
-    public void main(String[] args){
+    public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
 
@@ -25,7 +25,7 @@ public class quadractic {
        double c = sc.nextDouble();
 
 
-        double result = b*b-4.0*a*c;
+        double result = b*b-4.0*a*c;//keep entering numbers till user enters a multiple of 10.
 
         if(result >0.0){
             double r1 = (-b + Math.pow(result,0.5)) /(2.0*a);
