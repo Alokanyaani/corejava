@@ -1,21 +1,21 @@
 
 public class BinarytoDecimal {
-    public static void binTodeci(int n){
-        int mynum =n;
-        int pow=0;
-        int decNum=0;
+    public static void binTodec(int BinNum){
+        int mynum =BinNum;
+        int pow =0;
+        int decNum =0;
 
-        while(n>0){
-           int  lastdigit = n%10;
-           decNum=decNum+(lastdigit*(int)Math.pow(2,pow));
-           pow++;
-           n=n/10;
+        while (BinNum>0){
+            int lastdigit=BinNum % 10;
+            decNum=decNum+(lastdigit*(int)Math.pow(2,pow));
+            pow++;
+            BinNum=BinNum/10;
+
         }
-        System.out.println("Binary of " +mynum+"= "+decNum);
+        System.out.println("Decimal of "+ mynum +" = "+decNum);
     }
 
     public static void main(String[] args) {
-        binTodeci(110010);
+        binTodec(111);
     }
-
 }
