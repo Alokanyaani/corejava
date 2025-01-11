@@ -1,3 +1,6 @@
+//Write a Java method to compute the average of three numbers..
+
+
 package Practice;
 
 import java.util.Scanner;
