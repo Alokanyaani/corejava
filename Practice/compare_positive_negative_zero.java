@@ -1,6 +1,6 @@
 package Practice;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class compare_positive_negative_zero {
